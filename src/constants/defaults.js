@@ -1,0 +1,122 @@
+export const OVERALL_BUDGET = '__overall__';
+export const OTHER_EXPENSE_ID = 'other-expense';
+export const OTHER_INCOME_ID = 'other-income';
+
+export const DEFAULT_CATEGORIES = [
+  { id: 'food', name: 'Food & Dining', icon: 'fast-food', color: '#F97316', type: 'expense', builtIn: true },
+  { id: 'groceries', name: 'Groceries', icon: 'cart', color: '#22C55E', type: 'expense', builtIn: true },
+  { id: 'transport', name: 'Transport', icon: 'car', color: '#3B82F6', type: 'expense', builtIn: true },
+  { id: 'shopping', name: 'Shopping', icon: 'bag-handle', color: '#EC4899', type: 'expense', builtIn: true },
+  { id: 'bills', name: 'Bills & Utilities', icon: 'receipt', color: '#EAB308', type: 'expense', builtIn: true },
+  { id: 'housing', name: 'Rent & Housing', icon: 'home', color: '#8B5CF6', type: 'expense', builtIn: true },
+  { id: 'entertainment', name: 'Entertainment', icon: 'film', color: '#EF4444', type: 'expense', builtIn: true },
+  { id: 'health', name: 'Health', icon: 'medkit', color: '#14B8A6', type: 'expense', builtIn: true },
+  { id: 'education', name: 'Education', icon: 'school', color: '#6366F1', type: 'expense', builtIn: true },
+  { id: 'travel', name: 'Travel', icon: 'airplane', color: '#0EA5E9', type: 'expense', builtIn: true },
+  {
+    id: OTHER_EXPENSE_ID,
+    name: 'Other',
+    icon: 'ellipsis-horizontal',
+    color: '#64748B',
+    type: 'expense',
+    builtIn: true,
+  },
+  { id: 'salary', name: 'Salary', icon: 'cash', color: '#16A34A', type: 'income', builtIn: true },
+  { id: 'freelance', name: 'Freelance', icon: 'laptop', color: '#0891B2', type: 'income', builtIn: true },
+  { id: 'investment', name: 'Investments', icon: 'trending-up', color: '#7C3AED', type: 'income', builtIn: true },
+  { id: 'gift', name: 'Gifts', icon: 'gift', color: '#DB2777', type: 'income', builtIn: true },
+  { id: OTHER_INCOME_ID, name: 'Other', icon: 'ellipsis-horizontal', color: '#64748B', type: 'income', builtIn: true },
+];
+
+export const DEFAULT_SETTINGS = {
+  currency: 'INR',
+  theme: 'system',
+};
+
+export const PAYMENT_METHODS = [
+  { id: 'cash', label: 'Cash', icon: 'wallet-outline' },
+  { id: 'card', label: 'Card', icon: 'card-outline' },
+  { id: 'upi', label: 'UPI', icon: 'phone-portrait-outline' },
+  { id: 'bank', label: 'Bank', icon: 'business-outline' },
+  { id: 'wallet', label: 'E-Wallet', icon: 'qr-code-outline' },
+];
+
+export const CURRENCIES = [
+  { code: 'INR', name: 'Indian Rupee' },
+  { code: 'USD', name: 'US Dollar' },
+  { code: 'EUR', name: 'Euro' },
+  { code: 'GBP', name: 'British Pound' },
+  { code: 'JPY', name: 'Japanese Yen' },
+  { code: 'AUD', name: 'Australian Dollar' },
+  { code: 'CAD', name: 'Canadian Dollar' },
+  { code: 'SGD', name: 'Singapore Dollar' },
+  { code: 'AED', name: 'UAE Dirham' },
+  { code: 'CNY', name: 'Chinese Yuan' },
+  { code: 'CHF', name: 'Swiss Franc' },
+  { code: 'ZAR', name: 'South African Rand' },
+];
+
+/** Icons offered when creating a custom category. */
+export const CATEGORY_ICONS = [
+  'fast-food',
+  'cafe',
+  'pizza',
+  'beer',
+  'cart',
+  'basket',
+  'car',
+  'bus',
+  'bicycle',
+  'train',
+  'airplane',
+  'bed',
+  'home',
+  'construct',
+  'flash',
+  'water',
+  'wifi',
+  'call',
+  'tv',
+  'game-controller',
+  'film',
+  'musical-notes',
+  'book',
+  'school',
+  'medkit',
+  'fitness',
+  'heart',
+  'paw',
+  'shirt',
+  'bag-handle',
+  'gift',
+  'cash',
+  'card',
+  'laptop',
+  'briefcase',
+  'trending-up',
+  'pricetag',
+  'people',
+  'happy',
+  'star',
+];
+
+export const CATEGORY_COLORS = [
+  '#EF4444',
+  '#F97316',
+  '#F59E0B',
+  '#EAB308',
+  '#84CC16',
+  '#22C55E',
+  '#10B981',
+  '#14B8A6',
+  '#06B6D4',
+  '#0EA5E9',
+  '#3B82F6',
+  '#6366F1',
+  '#8B5CF6',
+  '#A855F7',
+  '#D946EF',
+  '#EC4899',
+  '#F43F5E',
+  '#64748B',
+];
